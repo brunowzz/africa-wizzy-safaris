@@ -1,3 +1,4 @@
+import BestDestinations from './components/BestDestinations'
 import Hero from './components/Hero'
 import SelectTravel from './components/SelectTravel'
 
@@ -8,6 +9,7 @@ export default function Home() {
         <S.ContainerHome>
             <Hero />
             <SelectTravel />
+            <BestDestinations />
         </S.ContainerHome>
     )
 }
