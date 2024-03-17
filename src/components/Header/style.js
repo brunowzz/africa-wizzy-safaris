@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerHeader = styled.header`
-    height: 7.1rem;
+    height: 10.2rem;
 `
 
 export const ContainerSocialLinks = styled.section`
@@ -17,6 +17,7 @@ export const ContainerNavigationLinks = styled.section`
     display: flex;
     align-items: center;
     gap: 3.5rem;
+    height: 7.1rem;
     padding: 0 6.5rem;
 `
 
