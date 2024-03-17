@@ -1,9 +1,13 @@
 import Hero from './components/Hero'
+import SelectTravel from './components/SelectTravel'
+
+import * as S from './style'
 
 export default function Home() {
     return (
-        <main>
+        <S.ContainerHome>
             <Hero />
-        </main>
+            <SelectTravel />
+        </S.ContainerHome>
     )
 }
