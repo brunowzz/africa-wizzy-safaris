@@ -17,7 +17,7 @@ export const ContainerBestDestinations = styled.section`
     }
 
     .embla__slide {
-        flex: 1;
+        flex: 0 0 20%;
         min-width: 0;
     }
 
